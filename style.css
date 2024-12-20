@@ -1,0 +1,13 @@
+.cursor-demo1 span{
+    min-width: 100px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+}
+
+a {
+    cursor:url("/examples/images/custom.gif"), url("/examples/images/custom.cur"), default;
+}
